@@ -1,0 +1,30 @@
+apply plugin: 'com.android.library'
+//apply plugin: 'com.novoda.bintray-release'
+
+android {
+    compileSdkVersion 23
+    buildToolsVersion '23.0.1'
+
+    defaultConfig {
+        minSdkVersion 4
+        targetSdkVersion 23
+        versionCode 124
+        versionName "1.2.4"
+    }
+}
+
+dependencies {
+    compile "com.android.support:support-v4:23.0.1"
+}
+
+//./gradlew clean build bintrayUpload -PbintrayUser=BINTRAY_USERNAME -PbintrayKey=BINTRAY_KEY -PdryRun=false
+//publish {
+//    userOrg = 'commit451'
+//    groupId = 'com.commit451'
+//    artifactId = 'PhotoView'
+//    version = '1.2.4'
+//    description = 'Implementation of ImageView for Android that supports zooming, by various touch gestures.'
+//    website = 'https://github.com/chrisbanes/PhotoView'
+//    issueTracker = "https://github.com/chrisbanes/PhotoView/issues"
+//    repository = "https://github.com/chrisbanes/PhotoView.git"
+//}
