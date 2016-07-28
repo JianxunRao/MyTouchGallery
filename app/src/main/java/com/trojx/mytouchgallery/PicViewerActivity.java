@@ -25,13 +25,13 @@ public class PicViewerActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_pic_viewer);
 
-        String [] urls={"http://www.zhagame.com/wp-content/uploads/2016/01/JarvanIV_0.jpg",
-                "http://www.zhagame.com/wp-content/uploads/2016/01/JarvanIV_1.jpg",
-                "http://www.zhagame.com/wp-content/uploads/2016/01/JarvanIV_2.jpg",
-                "http://www.zhagame.com/wp-content/uploads/2016/01/JarvanIV_3.jpg",
-                "http://www.zhagame.com/wp-content/uploads/2016/01/JarvanIV_4.jpg",
-                "http://www.zhagame.com/wp-content/uploads/2016/01/JarvanIV_5.jpg",
-                "http://www.zhagame.com/wp-content/uploads/2016/01/JarvanIV_6.jpg",};
+        String [] urls={"http://7xla0x.com1.z0.glb.clouddn.com/picJarvanIV_0.jpg",
+                "http://7xla0x.com1.z0.glb.clouddn.com/picJarvanIV_1.jpg",
+                "http://7xla0x.com1.z0.glb.clouddn.com/picJarvanIV_2.jpg",
+                "http://7xla0x.com1.z0.glb.clouddn.com/picJarvanIV_3.jpg",
+                "http://7xla0x.com1.z0.glb.clouddn.com/picJarvanIV_4.jpg",
+                "http://7xla0x.com1.z0.glb.clouddn.com/picJarvanIV_5.jpg",
+                "http://7xla0x.com1.z0.glb.clouddn.com/picJarvanIV_6.jpg",};
 
         urlList = new ArrayList<>();
         Collections.addAll(urlList, urls);
