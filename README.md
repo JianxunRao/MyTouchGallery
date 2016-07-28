@@ -1,2 +1,2 @@
 ###Simple TouchGallery demo based on ViewPager and Photoview.
-![](http://www.zhagame.com/wp-content/uploads/2016/01/Preview1.gif)
+![](http://7xla0x.com1.z0.glb.clouddn.com/picjarvan_180x320.gif)
